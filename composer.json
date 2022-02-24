@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url":  "git@gitlab.atprogrammers.com:atprop-webdev/forked-repos/phpexcel.git"
+      "url":  "http://gitlab.atprogrammers.com/atprop-webdev/forked-repos/phpexcel.git"
     }
   ],
   "require": {
@@ -72,6 +72,7 @@
   "config": {
     "allow-plugins": {
       "kylekatarnls/update-helper": true
-    }
+    },
+    "secure-http": false
   }
 }
